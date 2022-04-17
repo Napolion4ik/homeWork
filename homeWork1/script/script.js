@@ -6,7 +6,6 @@ let listItem = document.querySelector('.list');
 
 let html = ``;
 
-
 arr.forEach(function (item, index) {
     let usersName = item;
     let number = ++index;
