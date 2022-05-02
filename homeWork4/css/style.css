@@ -1,0 +1,9 @@
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    outline: 1px solid rgb(130, 21, 92);
+    border-radius: 5px;
+}
+.out {
+    text-align: center;
+}
