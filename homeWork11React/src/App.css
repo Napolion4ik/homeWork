@@ -1,0 +1,110 @@
+.close-sticker {
+  position: absolute;
+  right: 23px;
+  top: 7px;
+  opacity: 0.3;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  }
+  .close-sticker:hover {
+  opacity: 1;
+  }
+  .close-sticker:before, .close-sticker:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 25px;
+  width: 2px;
+  background-color: #333;
+  }
+  .close-sticker:before {
+  transform: rotate(45deg);
+  }
+  .close-sticker:after {
+  transform: rotate(-45deg);
+  }
+.container {
+  max-width: 1920px;
+  position: relative;
+  min-height: 500px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 50px 20px;
+  margin: 0 auto;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.form-sticker {
+  display: flex;
+  align-items: center;
+  position: absolute;
+   bottom: 0;
+}
+.container__sticker {
+  border: 1px solid gold;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.sticker {
+  position: relative;
+  width: 228px;
+  height: 200px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(34,193,195);
+  word-break: break-all;
+  padding: 5px;
+  font-size: 18px;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.input-sticker {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  outline: none;
+  width: 100%;
+  padding-left: 22px;
+}
+.warning {
+  position: absolute;
+  top: 0;
+  background-color: rgb(158, 156, 200);
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  z-index: 100;
+}
+.warning button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: greenyellow;
+}
+.form-sticker input {
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  background-color: rgb(33, 140, 147);
+}
+.form-sticker button { 
+  height: 33px;
+  font-size: 20px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(27, 211, 224);
+}
