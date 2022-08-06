@@ -1,0 +1,35 @@
+.todo-all {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.todo-all__back {
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blanchedalmond;
+    font-size: 22px;
+    cursor: pointer;
+}
+.todo-all__text {
+    border-bottom: 2px solid black;
+}
+.todo-all__text--span {
+    font-weight: 600;
+}
+.todo-all input {
+    border: none;
+    font-size: 16px;
+}
+.todo-all input:focus-visible {
+    outline: none;
+}
+.todo-all__back.submit {
+    left: 0;
+    right: auto;
+    color: antiquewhite;
+    background-color: green;
+}

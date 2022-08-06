@@ -1,0 +1,17 @@
+.todo-list {
+    text-align: center;
+}
+.todo-list__text {
+    border-bottom: 1px solid gray;
+    font-size: 21px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.todo-list__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div[data-testid] {
+    justify-content: center;
+}

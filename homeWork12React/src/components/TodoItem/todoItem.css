@@ -1,0 +1,32 @@
+.todo-item {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(40, 35, 35);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.todo-item__button {
+    position: absolute;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    right: 0px;
+    top: -16px;
+    color: red;
+    font-size: 20px;
+}
+.todo-item input {
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+}
+.todo-item p {
+    right: 50%;
+    transform: translateX(50%);
+    position: relative;
+}

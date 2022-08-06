@@ -1,0 +1,16 @@
+.form--todo input {
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px ;
+}
+.form--todo button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: antiquewhite;
+    background-color: green;
+}
