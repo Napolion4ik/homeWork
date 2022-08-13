@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.theme-dark header {
+  background-color: rgb(56, 40, 40);
+}
+.theme-dark th {
+  color: white;
+}
+.theme-dark td {
+  color: white;
+}
+.theme-dark #root {
+  background-color: rgb(74, 52, 52);
+}
+.theme-dark form {
+  color: white;
+}
+.theme-dark label {
+  border-color: white;
+  color: white;
+}
+.theme-dark svg {
+  color: white;
+  border-color: white;
+}
+.theme-dark .css-8j6b76-MuiInputBase-root-MuiOutlinedInput-root {
+  border:  white;
+}
